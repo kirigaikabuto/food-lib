@@ -4,6 +4,7 @@ import (
 	"database/sql"
 	"encoding/json"
 	"log"
+	_ "github.com/lib/pq"
 )
 
 var Queries = []string{
